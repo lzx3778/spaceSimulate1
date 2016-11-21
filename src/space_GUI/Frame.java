@@ -142,8 +142,8 @@ public class Frame extends JFrame implements Runnable{
 			public void mouseClicked(MouseEvent e) {
 				//set place
 				if(selected){
-					paint_x = e.getX()-paint_r+10;
-					paint_y = e.getY()+20;
+					paint_x = e.getX()-paint_r+20;
+					paint_y = e.getY()-paint_r+40;
 					repaint();
 				}
 			}
