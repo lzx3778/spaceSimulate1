@@ -312,7 +312,7 @@ public class Frame extends JFrame implements Runnable{
 						second = 1;
 					}
 					paint_r = second;
-					PaintingColor = Color.MAGENTA;
+					PaintingColor = new Color(2 * second, 255 - (int)(1.6*second), second);
 					selected = true;
 				}catch(Exception e1){
 					txtRadius.setText("a number!");
